@@ -1,13 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
 
 export const CampaignCard = ({ campaign }) => {
+
+  const truncateDescription = (description) => {
+    const words = description.split(' ');
+    if (words.length > 20) {
+      return words.slice(0, 20).join(' ') + '...';
+    }
+    return description;
+  };
+
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="max-w-sm bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105 mx-4">
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{campaign.studentName}</div>
-        <p className="text-gray-700 text-base">{campaign.description}</p>
-        <p className="text-gray-700 text-base">Required Amount: ${campaign.requiredAmount}</p>
+        <h2 className="font-semibold text-xl mb-2 text-gray-800">{campaign.studentName}</h2>
+        <p className="text-gray-700 text-base">{truncateDescription(campaign.description)}</p>
+        <p className="text-gray-700 text-base mt-2">Required Amount: <span className="font-semibold">${campaign.requiredAmount}</span></p>
       </div>
     </div>
   );

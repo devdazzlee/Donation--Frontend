@@ -54,27 +54,18 @@ const MegaMenu = () => {
               >
                 Home
               </Link>
-            {/* <li className="with-dropdown">
-            <Link itemprop="availability" href="https://schema.org/InStock"
-                className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0   "
-                to={'/home'}
-              >
-                Services  <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </Link>
-              
-           
-            </li> */}
+          
   <li   className='mb-dropdown' >
   
   
-  {/* <Link itemprop="availability" href="https://schema.org/InStock"
+  <Link itemprop="availability" href="https://schema.org/InStock"
                 className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0"
                 onClick={()=>{
                   setDropdown(!dropdown)
                 }}
               >
-                Services  <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </Link> */}
+                Contact
+              </Link>
   </li>
   <Link itemprop="availability" href="https://schema.org/InStock"
                 className="listitemcolorhover block  pl-3 pr-4 text-white rounded  md:p-0"
@@ -89,7 +80,12 @@ const MegaMenu = () => {
               >
                Student Campaign 
               </Link>
-          
+              <Link itemprop="availability" href="https://schema.org/InStock"
+                className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0   "
+                to={'/Contact'}
+              >
+  Contact
+              </Link>
       
         <button
           style={{ background: "#232F3F" }}

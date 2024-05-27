@@ -16,11 +16,12 @@ const CampaignList = () => {
     }, []);
   
     return (
-      <div className="flex flex-wrap">
-        {campaigns.map(campaign => (
-          <CampaignCard key={campaign._id} campaign={campaign} />
-        ))}
-      </div>
+      <div className="flex flex-wrap justify-center">
+      {campaigns.map(campaign => (
+        <CampaignCard key={campaign._id} campaign={campaign} />
+      ))}
+    </div>
+    
     );
   };
   

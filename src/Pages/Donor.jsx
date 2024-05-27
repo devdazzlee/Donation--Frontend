@@ -9,6 +9,9 @@ const Donor = () => {
     <>
     <MegaMenu/>
 <div className='py-24' >
+<h1 className="text-2xl font-bold text-center my-4">Student Campaigns</h1>
+
+
 <CampaignList/>
 </div>
 
