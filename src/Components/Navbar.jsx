@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import "./Navbar.css"; // CSS for styling
 // import img1 from '../../Images/updatedAsset 9.svg'
 import { Link  , useNavigate } from 'react-router-dom';
-// import logo from '../../Images/logo black (1).svg'
+import logo from '../Web logo.png'
 
 
 const MegaMenu = () => {
@@ -24,7 +24,7 @@ const MegaMenu = () => {
   
   
     function handleClick23() {
-      navigate("/Contact");
+      navigate("/Donor");
     }
   
     return (
@@ -37,8 +37,8 @@ const MegaMenu = () => {
         <div className="navbar-container">
      <Link  to={"/home"} >
   
-  <h1 className='font-bold text-3xl font-serif	' >Education Empower</h1>
-     {/* <img  className='h-16 md:mx-12 mx-4'  src={logo} alt="The Readsy Testimonials" /> */}
+  {/* <h1 className='font-bold text-3xl font-serif	' >Education Empower</h1> */}
+     <img  className='h-16 md:mx-12 mx-4'  src={logo} alt="The Readsy Testimonials" />
   
         </Link>
   
@@ -105,7 +105,7 @@ const MegaMenu = () => {
     itemscope
     itemtype="http://schema.org/Button"
   >
-    <span itemprop="name">Get A Quote</span>
+    <span itemprop="name">Donate Now </span>
   </button>
 
           </ul>
