@@ -23,10 +23,10 @@ const Volunter = () => {
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900  ">
-                      <a href="#">Zain Khan</a>
+                      <a href="#">Zain khan</a>
                   </h3>
-                  <span class="text-gray-500  ">CEO & Web Developer</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500  ">Zain Khan  Bonnie drives the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500  ">CEO</span>
+                  <p class="mt-3 mb-4 font-light text-gray-500  ">Provides overall strategic direction and vision for the platform, ensuring alignment with the mission to support students. Builds partnerships with educational institutions and major donors to secure funding and increase platform credibility.</p>
                  
               </div>
           </div> 
@@ -36,10 +36,10 @@ const Volunter = () => {
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900  ">
-                      <a href="#">Rohan Chaudhry</a>
+                      <a href="#">Rohan </a>
                   </h3>
-                  <span class="text-gray-500  ">CTO</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500  ">Rohan Chaudhry  the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500  ">Chief Technology Officer (CTO) </span>
+                  <p class="mt-3 mb-4 font-light text-gray-500  ">Leads the technology strategy and oversees the development of the crowdfunding platform. Ensures the site is secure, efficient, and capable of handling large volumes of donations and user activity.</p>
                 
               </div>
           </div> 
@@ -49,10 +49,10 @@ const Volunter = () => {
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900  ">
-                      <a href="#">Sadia Shah</a>
+                      <a href="#">Saadia</a>
                   </h3>
-                  <span class="text-gray-500  ">Senior Front-end Developer</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500  ">Sadia Shah drives the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500  ">Marketing Manager</span>
+                  <p class="mt-3 mb-4 font-light text-gray-500  ">Develops and implements marketing strategies to attract users to the platform and promote individual projects. Manages social media, content creation, and advertising campaigns to increase visibility and drive engagement.</p>
                
               </div>
           </div> 
@@ -62,10 +62,10 @@ const Volunter = () => {
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900  ">
-                      <a href="#">Aisha Patel</a>
+                      <a href="#">Aisha </a>
                   </h3>
-                  <span class="text-gray-500  ">Marketing & Sale</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500  ">Aisha Patel drives the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500  ">Donor Relations Manager</span>
+                  <p class="mt-3 mb-4 font-light text-gray-500  ">Focuses on building and maintaining relationships with donors, ensuring they have a positive experience. Develops strategies to engage and retain donors, provides regular updates on the impact of their contributions, and handles donor inquiries and feedback.</p>
                 
               </div>
           </div>  

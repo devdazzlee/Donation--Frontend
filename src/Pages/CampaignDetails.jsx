@@ -6,7 +6,7 @@ const CampaignDetails = () => {
   const campaign = state && state.campaign;
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="max-w-4xl mx-auto px-4 py-8 fontchange">
       <h2 className="text-4xl font-bold mb-6 text-center text-gray-800">Campaign Details</h2>
       {campaign ? (
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">

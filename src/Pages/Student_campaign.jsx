@@ -5,16 +5,16 @@ import CampaignForm from '../Components/Campaign'
 
 const Student_campaign = () => {
   return (
-<>
+<div  className='fontchange' >
 
 <MegaMenu/>
-<div className='py-24' >
+<div className='py-28' >
 <CampaignForm/>
 </div>
 
 <Footer/>
 
-</>
+</div>
   )
 }
 

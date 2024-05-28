@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import "./Navbar.css"; // CSS for styling
 // import img1 from '../../Images/updatedAsset 9.svg'
 import { Link  , useNavigate } from 'react-router-dom';
-import logo from '../Web logo.png'
+import logo from '../Web_logo-removebg-preview.png'
 
 
 const MegaMenu = () => {
@@ -35,11 +35,11 @@ const MegaMenu = () => {
       }}
       className="navbar nav-with-shadow bg-white border-gray-200 py-4">
         <div className="navbar-container">
-     <Link  to={"/home"} >
+     <Link  className='flex items-center' to={"/home"} >
   
-  {/* <h1 className='font-bold text-3xl font-serif	' >Education Empower</h1> */}
-     <img  className='h-16 md:mx-12 mx-4'  src={logo} alt="The Readsy Testimonials" />
-  
+     <img  className='h-24 mr-2'  src={logo} alt="Education Empower" />
+  <h1 className='font-bold text-xl' >Education Empower</h1>
+
         </Link>
   
           <div className="navbar-hamburger" onClick={toggleMobileMenu}>
@@ -87,7 +87,7 @@ const MegaMenu = () => {
   Contact
               </Link>
       
-        <button
+        {/* <button
           style={{ background: "#232F3F" }}
           className="listitemcolorhover w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
           itemscope
@@ -95,7 +95,7 @@ const MegaMenu = () => {
           onClick={handleClick}
         >
           <span itemprop="name"> +1 737-222-7373</span>
-        </button>
+        </button> */}
 
 
   <button
