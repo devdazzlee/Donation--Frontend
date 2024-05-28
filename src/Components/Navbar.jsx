@@ -71,14 +71,14 @@ const MegaMenu = () => {
                 className="listitemcolorhover block  pl-3 pr-4 text-white rounded  md:p-0"
                 to={'/Donor'}
               >
-                
-                 Create Campaign
+                  Student Campaigns 
+               
               </Link>
             <Link itemprop="availability" href="https://schema.org/InStock"
                 className="listitemcolorhover block  pl-3 pr-4 text-white rounded  md:p-0"
                 to={'/Student_campaign'}
               >
-               Student Campaign 
+               Create Campaign
               </Link>
               <Link itemprop="availability" href="https://schema.org/InStock"
                 className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0   "
