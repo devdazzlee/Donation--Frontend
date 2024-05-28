@@ -25,7 +25,7 @@ const CampaignForm = () => {
       e.preventDefault();
   
       try {
-        const response = await axios.post('http://localhost:8000/create-campaign', {
+        const response = await axios.post('https://donation-backend-gerd.vercel.app/create-campaign', {
           studentName,
           educationalLevel,
           description,

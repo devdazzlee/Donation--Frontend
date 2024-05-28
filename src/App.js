@@ -7,6 +7,7 @@ import { AuthProvider } from './Components/AuthContext';
 import Student_campaign from './Pages/Student_campaign';
 import Donor from './Pages/Donor';
 import Contact from './Pages/Contact';
+import CampaignDetails from './Pages/CampaignDetails';
 
 
 const App = () => {
@@ -70,6 +71,7 @@ const App = () => {
         </>
       }
     />
+        <Route path="/campaign/:id" element={<CampaignDetails />} />
 
 
 
