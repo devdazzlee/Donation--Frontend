@@ -10,7 +10,7 @@ const Donor = () => {
       <MegaMenu />
       <div className="pt-36">
         <h1 className="text-2xl font-bold text-center mb-6   ">
-          Student Campaigns
+          Campaigns List 
         </h1>
         <CampaignList />
       </div>

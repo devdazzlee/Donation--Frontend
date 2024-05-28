@@ -62,7 +62,7 @@ const CampaignForm = () => {
 
     return (
         <div className="max-w-xl mx-auto">
-            <h1 className="text-3xl font-bold py-4 font-serif">Student Details</h1>
+            <h1 className="text-3xl font-bold py-4 font-serif">Create Campaign</h1>
             <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 {/* Personal Information */}
                 <div className="mb-4">

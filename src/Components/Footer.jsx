@@ -39,7 +39,7 @@ function Footer() {
                 <Link to="/Home">Home </Link>
               </li>
               <li   className='text-white  listitemcolorhover  ' >
-                <Link to="/Donor">Donor</Link>
+                <Link to="/Donor">Create Campaign</Link>
               </li>
               <li   className='text-white  listitemcolorhover  ' >
                 <Link to="/Student_campaign">Student Campaign</Link>
@@ -62,7 +62,7 @@ function Footer() {
                 <Link to="/about">About Us</Link>
               </li> */}
               <li   className='text-white listitemcolorhover ' >
-                <Link to="/Donor">Pricing</Link>
+                <Link to="/Donor">Create Campaign</Link>
               </li>
 <li    className='listitemcolorhover'  >
 <Link to="/Student_campaign">Potfolio</Link>

@@ -46,7 +46,7 @@ const App = () => {
               path={"/Student_campaign"}
               element={
                 <>
-                  <Student_campaign />
+                  <Student_campaign/>
                 </>
               }
             />
