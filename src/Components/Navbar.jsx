@@ -87,17 +87,7 @@ const MegaMenu = () => {
   Contact
               </Link>
       
-        {/* <button
-          style={{ background: "#232F3F" }}
-          className="listitemcolorhover w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
-          itemscope
-          itemtype="http://schema.org/Button"
-          onClick={handleClick}
-        >
-          <span itemprop="name"> +1 737-222-7373</span>
-        </button> */}
-
-
+    
   <button
   onClick={handleClick23}
     style={{ background: "#232F3F" }}

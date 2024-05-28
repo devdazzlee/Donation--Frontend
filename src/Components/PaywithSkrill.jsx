@@ -108,10 +108,7 @@ const PaywithSkrill = () => {
     </div>
   </div>
 </section>
-
   </div>
-
-
     <Footer/>
   </>
 

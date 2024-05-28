@@ -17,14 +17,14 @@ function Footer() {
             Your trusted partner for comprehensive book publishing solutions, ensuring every aspect of your literary journey is expertly handled.
             </p>
             <div className="flex gap-4 mt-2">
-              <a    className='listitemcolorhover'  href="https://www.facebook.com/thereadsy"    alt="Thereadsy Facebook" >
+              <a    className='listitemcolorhover'  href="https://www.facebook.com/"    alt="Thereadsy Facebook" >
               <i class="fa-brands fa-2x  fa-facebook-f"></i>
               </a>
-              <a    className='listitemcolorhover'  href="https://www.instagram.com/thereadsy/" alt="Thereadsy Instagram" >
+              <a    className='listitemcolorhover'  href="https://www.instagram.com/" alt="Thereadsy Instagram" >
               <i class="fa-brands fa-2x  fa-instagram"></i>
 
               </a>
-              <a   className='listitemcolorhover'   href="https://www.linkedin.com/company/thereadsy" alt="Thereadsy Linkedin" >
+              <a   className='listitemcolorhover'   href="https://www.linkedin.com/company/" alt="Thereadsy Linkedin" >
               <i class="fab fa-2x  fa-linkedin-in"></i>
                 {/* <FontAwesomeIcon icon={fadivedin}   style={{"color" : "#FF9903"}} size="2x" /> */}
               </a>
@@ -45,7 +45,7 @@ function Footer() {
                 <Link to="/Student_campaign">Create Campaign</Link>
               </li>
               <li   className='text-white  listitemcolorhover  ' >
-                <Link to="/Contact">Contact </Link>
+                <Link to="/Contact">Contact</Link>
               </li>
 
             </ul>
@@ -88,7 +88,7 @@ function Footer() {
 
 
 
-<li  className='    '  ><i class="fa fa-envelope mr-2  " aria-hidden="true"></i> educationempower@gmail.com </li>
+<li  className='    '  ><i class="fa fa-envelope " aria-hidden="true"></i> educationempower@gmail.com </li>
 
             </ul>
           </div>

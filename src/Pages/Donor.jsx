@@ -6,11 +6,11 @@ import CampaignList from "../Components/CampainList";
 
 const Donor = () => {
   return (
-    <div  className="fontchange" >
+    <div className="fontchange">
       <MegaMenu />
       <div className="pt-36">
         <h1 className="text-2xl font-bold text-center mb-6   ">
-          Campaigns List 
+          Campaigns List
         </h1>
         <CampaignList />
       </div>
