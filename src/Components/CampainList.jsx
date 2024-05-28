@@ -25,18 +25,18 @@ console.log(campaigns)
  // Function to handle campaign click
  const handleCampaignClick = (campaign) => {
   // Transfer to a different page with campaign data
-  navigate(`/campaign/${campaign._id}`, { state: { campaign } });
+  navigate(`/campaign/${campaign._id}`, { state: { campaign  }  });
 };
 
 
 
     return (
       <div className="flex flex-wrap justify-center ">
-      {/* {campaigns.map(campaign => (
+      {campaigns.map(campaign => (
         <CampaignCard  key={campaign._id} 
         campaign={campaign} 
        onClick={() => handleCampaignClick(campaign)}   />
-      ))} */}
+      ))}
     </div>
     
     );

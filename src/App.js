@@ -8,6 +8,7 @@ import Student_campaign from './Pages/Student_campaign';
 import Donor from './Pages/Donor';
 import Contact from './Pages/Contact';
 import CampaignDetails from './Pages/CampaignDetails';
+import PaywithSkrill from './Components/PaywithSkrill';
 
 
 const App = () => {
@@ -72,10 +73,10 @@ const App = () => {
       }
     />
         <Route path="/campaign/:id" element={<CampaignDetails />} />
+        <Route path="/PaywithSkrill" element={<PaywithSkrill />} />
 
 
-
-
+        
     </Routes>
 
 

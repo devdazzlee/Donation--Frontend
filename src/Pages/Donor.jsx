@@ -8,7 +8,7 @@ const Donor = () => {
   return (
     <>
     <MegaMenu/>
-<div  style={{"height" :"90vh"}} className='py-24' >
+<div  className='py-24' >
 <h1 className="text-2xl font-bold text-center mb-6   ">Student Campaigns</h1>
 
 
