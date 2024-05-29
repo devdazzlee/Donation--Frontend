@@ -31,7 +31,7 @@ const CampaignForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:3000/create-campaign', formData);
+            const response = await axios.post('https://donation-backend-gerd.vercel.app/create-campaign', formData);
             console.log('Campaign created successfully:', response.data);
             alert("Campaign created successfully:")
             setFormData({

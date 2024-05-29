@@ -38,7 +38,7 @@ const MegaMenu = () => {
      <Link  className='flex items-center' to={"/home"} >
   
      <img  className='h-24 mr-2'  src={logo} alt="Education Empower" />
-  <h1 className='font-bold text-xl' >Education Empower</h1>
+  <h1 className='font-bold text-xl text-white' >Education Empower</h1>
 
         </Link>
   
@@ -91,7 +91,7 @@ const MegaMenu = () => {
   <button
   onClick={handleClick23}
     style={{ background: "#232F3F" }}
-    className="listitemcolorhover w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
+    className="listitemcolorhover w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button2"
     itemscope
     itemtype="http://schema.org/Button"
   >

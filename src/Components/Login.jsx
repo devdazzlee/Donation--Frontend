@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from './AuthContext';
-
+import logo from '../Web_logo-removebg-preview.png'
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -26,8 +26,14 @@ const Login = () => {
 
   return (
 
-    <div className="flex justify-center items-center h-screen fontchange">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md">
+    <div   className="flex justify-center items-center h-screen fontchange">
+      <form  style={{"background" :"#87CEEB"}} className=" shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md">
+        <Link  className='flex items-center' to={"/home"} >
+  
+  <img  className='h-24 mr-2'  src={logo} alt="Education Empower" />
+<h1 className='font-bold text-xl' >Education Empower</h1>
+
+     </Link>
       <h2 className="text-2xl text-center font-semibold mb-4">Log In</h2>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">

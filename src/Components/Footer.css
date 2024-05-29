@@ -80,6 +80,21 @@
     background-color: #1a1f27;
   }
   
+  .custom-button2 {
+    background-color: #87CEEB !important;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #1a1f27;
+  }
+
   .carousel-button {
     position: absolute;
     top: 50%;

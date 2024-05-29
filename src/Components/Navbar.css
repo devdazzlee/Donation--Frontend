@@ -2,7 +2,7 @@
 
 .navbar {
   /* background-image: url('../../Images/white-paper-texture.avif'); */
-  background-color: #E9E9EB;
+  background-color: #232F3F;
     color: black;
     position: fixed;
     width: 100%;
@@ -81,7 +81,7 @@ padding: 10px 0px;
   
   .navbar-links a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   .dropdown {
@@ -141,7 +141,4 @@ padding: 10px 0px;
     .navbar-links li:hover .dropdown {
       display: none;
     }
-  }
-  .listitemcolorhover:hover{
-    color: blue;
   }

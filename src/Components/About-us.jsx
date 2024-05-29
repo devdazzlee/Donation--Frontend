@@ -18,18 +18,7 @@ const Aboutus = () => {
         <p className="text-lg text-gray-700 leading-relaxed">
           Together, we can make a difference, one student at a time.
         </p>
-       <Link to={'/donor'} >
-       
-       <button
-    style={{ background: "#232F3F" }}
-    className="listitemcolorhover mt-6  w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
-    itemscope
-    itemtype="http://schema.org/Button"
-  >
-    <span itemprop="name">Donate Now </span>
-  </button>
-       
-       </Link>
+     
       </div>
     </>
   );
