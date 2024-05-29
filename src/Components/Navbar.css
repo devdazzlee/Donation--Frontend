@@ -2,7 +2,7 @@
 
 .navbar {
   /* background-image: url('../../Images/white-paper-texture.avif'); */
-  background-color: #232F3F;
+  background-color: #232F3F !important ; 
     color: black;
     position: fixed;
     width: 100%;

@@ -103,7 +103,7 @@ function Footer() {
       <div className="flex flex-col justify-center items-center ">
   <div className="text-sm text-whitemt-2 font-2xl">
     <div  className='my-3' > 
-      &copy; 2024 <Link   className=' ' to="https://devdazzlee.vercel.app/" target="_blank" style={{ textDecoration: "underline"}}>Education Empower</Link>. All rights reserved.
+      &copy; 2024 <Link   className=' ' to="" target="_blank" style={{ textDecoration: "underline"}}>Education Empower</Link>. All rights reserved.
     </div>
   </div>
 </div>
