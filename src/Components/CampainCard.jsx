@@ -36,7 +36,7 @@ export const CampaignCard = ({ campaign, onClick }) => {
     <div className="px-6 py-4">
       <h2 className="font-semibold text-xl mb-2 text-gray-900">{campaign.scholarshipTitle}</h2>
       <p className="text-gray-700 text-base">{campaign.scholarshipReason}</p>
-      <p className="text-gray-700 text-base mt-2">Required Amount: <span className="font-semibold">${campaign.fundType}</span></p>
+      <p className="text-gray-700 text-base mt-2">Required Amount: <span className="font-semibold">${campaign.amountNeeded}</span></p>
       <div className="mt-4">
         {/* <ProgressBar completed={percentageGenerator()} /> */}
       </div>

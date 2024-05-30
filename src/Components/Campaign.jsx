@@ -32,6 +32,7 @@ const CampaignForm = () => {
         e.preventDefault();
         try {
             const response = await axios.post('https://donation-backend-gerd.vercel.app/create-campaign', formData);
+console.log(formData)
             console.log('Campaign created successfully:', response.data);
             alert("Campaign created successfully:")
             setFormData({
@@ -289,7 +290,7 @@ const CampaignForm = () => {
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="amountNeeded" className="block text-gray-700 text-sm font-bold mb-2">Amount needed for cause:</label>
+                    <label htmlFor="amountNeeded" className="block text-gray-700 text-sm font-bold mb-2">Amount needed :</label>
                     <input
                         type="text"
                         id="amountNeeded"

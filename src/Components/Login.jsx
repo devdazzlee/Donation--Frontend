@@ -25,10 +25,9 @@ const Login = () => {
   };
 
   return (
-
     <div   className="flex justify-center items-center h-screen fontchange">
       <form  style={{"background" :"#87CEEB"}} className=" shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md">
-        <Link  className='flex items-center' to={"/home"} >
+      <Link  className='flex items-center' to={"/home"} >
   
   <img  className='h-24 mr-2'  src={logo} alt="Education Empower" />
 <h1 className='font-bold text-xl' >Education Empower</h1>

@@ -37,6 +37,8 @@ const CampaignDetails = () => {
             <p className="text-gray-700 text-lg mb-4"><span className="font-semibold">Scholarship Reason: </span>{campaign.scholarshipReason}</p>
             <p className="text-gray-700 text-lg mb-4"><span className="font-semibold">Family Members: </span>{campaign.familyMembers}</p>
             <p className="text-gray-700 text-lg mb-4"><span className="font-semibold">Household Income: </span>${campaign.householdIncome}</p>
+            <p className="text-gray-700 text-lg mb-4"><span className="font-semibold">Required Amount: </span>${campaign.amountNeeded}</p>
+
             <p className="text-gray-700 text-lg mb-4"><span className="font-semibold">Created On: </span>{new Date(campaign.createdOn).toLocaleDateString()}</p>
             <div className="bg-gray-100 p-4 rounded-lg mb-6">
               <p className="text-gray-800 text-xl font-semibold">Required Amount: <span className="text-green-500">${campaign.fundType}</span></p>
