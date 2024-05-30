@@ -40,13 +40,13 @@ const CampaignDetails = () => {
 
             <p className="text-gray-700 text-lg mb-4"><span className="font-semibold">Created On: </span>{new Date(campaign.createdOn).toLocaleDateString()}</p>
             <div className="bg-gray-100 p-4 rounded-lg mb-6">
-              <p className="text-gray-800 text-xl font-semibold">Required Amount: <span className="text-green-500">${campaign.fundType}</span></p>
+              <p className="text-gray-800 text-xl font-semibold">Required Amount: <span className="text-green-500">${campaign.amountNeeded}</span></p>
             </div>
             <div className="flex justify-center">
 
 <Link  to={'/PaywithSkrill'} >
               <button style={{"backgroundColor" :"#5D1650"}} className="flex items-center  text-white font-semibold py-2 px-6 rounded-full shadow-md hover:bg-blue-600 transition duration-300">
-              Pay With Skrill   {campaign.amountNeeded} <i class="fa-solid ml-2 fa-dollar-sign"></i>
+              Pay With Skrill    <i class="fa-solid ml-2 fa-dollar-sign"></i>
               </button>
 
 </Link>
